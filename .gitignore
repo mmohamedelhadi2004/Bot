@@ -3,7 +3,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Callb
 
 # Get your bot token from the .env file
 import os
-BOT_TOKEN = os.environ.get("6647945238:AAH5dcwmqAzjMrsCvdl7QGl46lXNUjU0CtI")
+BOT_TOKEN = os.environ.get(6647945238:AAH5dcwmqAzjMrsCvdl7QGl46lXNUjU0CtI)
 
 def start(update: Update, context: CallbackContext) -> None:
     update.message.reply_text('Hello! I am your Telegram bot.')
